@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicios html5 forms</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form method="get" action="">
+            <fieldset>
+            <label for="name">Name</label></br>
+            <input type="text" placeholder="Enter your name" id="name"></br>
+            <label for="mail">Mail</label></br>
+            <input type="email" placeholder="Enter your email" id="mail"></br>
+            <label for="age">Age</label></br>
+            <input type="number" placeholder="Enter your age" id="age"></br>
+            </fieldset>
+            <fieldset>  Would you recommend this site?</br>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="opt" value="yes"></br>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="opt" value="no"></br>
+            <label for="maybe">Maybe</label>
+            <input type="radio" id="maybe" name="opt" value="maybe"></br>
+            </fieldset>
+            <fieldset> Language and Frameworks known</br>
+                <label for="c">C</label>
+                <input type="checkbox" id="c" name="c" value="c" class="techs"></br>
+                <label for="c++">C++</label>
+                <input type="checkbox" id="c++" name="c++" value="c++" class="techs"></br>
+                <label for="c#">C#</label>
+                <input type="checkbox" id="c#" name="c#" value="c#" class="techs"></br>
+                <label for="java">Java</label>
+                <input type="checkbox" id="java" name="java" value="java" class="techs"></br>
+                <label for="python">Python</label>
+                <input type="checkbox" id="python" name="python" value="python" class="techs"></br>
+                <label for="JavaScript">JavaScript</label>
+                <input type="checkbox" id="JavaScript" name="JavaScript" value="js" class="techs"></br>
+                <label for="frameworks">Frameworks</label>
+                <input type="checkbox" id="" name="frameworks" value="frameworks" class="techs"></br>
+            </fieldset>
+            <input type="submit" value="Submit" id="submit" onclick="doit()">
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>
